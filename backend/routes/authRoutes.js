@@ -6,7 +6,7 @@ import FormData from 'form-data';
 
 const router = express.Router();
 const upload = multer({
-  dest: 'uploads/',
+  dest: '/uploads',
   limits: { fileSize: 5 * 1024 * 1024 },
   fileFilter: (req, file, cb) => {
     const allowedTypes = ['image/jpeg', 'image/png', 'image/gif'];
