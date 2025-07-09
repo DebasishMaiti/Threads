@@ -14,7 +14,7 @@ function App() {
   const [postText, setPostText] = useState('');
   const [imageFile, setImageFile] = useState(null);
 
-  const clientId ='739434025131880'
+  const clientId = '739434025131880'
   const redirectUri = 'http://localhost:5173'
 
   const handleLogin = () => {
