@@ -15,7 +15,7 @@ function App() {
   const [imageFile, setImageFile] = useState(null);
 
   const clientId = '739434025131880'
-  const redirectUri = 'https://threads-l013vddyp-debasish-maitis-projects.vercel.app/'
+  const redirectUri = 'https://threads-six-gules.vercel.app/'
 
   const handleLogin = () => {
     const url = `https://api.instagram.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=user_profile,threads_basic,threads_content_publish&response_type=code`;
